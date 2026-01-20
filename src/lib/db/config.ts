@@ -20,11 +20,5 @@ export async function testConnection() {
   } catch (error) {
     console.error('❌ Erro ao conectar com banco de dados:', error);
     return false;
-
-   
-
-
-
   }
 }
-
